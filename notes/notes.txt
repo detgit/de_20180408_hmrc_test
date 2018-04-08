@@ -1,0 +1,7 @@
+﻿DE Notes.
+
+1 Intially set up the project.
+1.1 Create repo in github and pull down into project. Label “start” 
+1.2 Create a working branch. Never work in master.
+1.3 Create notes add git. Label “notes”.
+1.4 Create a basic intellij. Label “project start”
