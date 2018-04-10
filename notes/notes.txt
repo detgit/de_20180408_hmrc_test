@@ -4,8 +4,19 @@
 1.1 Create repo in github and pull down into project. Label “start” 
 1.2 Create a working branch. Never work in master.
 1.3 Create notes add git. Label “notes”.
-1.4 Create a basic empty intellij project. Label “project start”
+1.4 Create a basic empty intellij project. Label “empty_project”
 Ensure that the .gitignore is set up otherwise we will submit things that should not be submitted,
 and spend the rest of the project trying delete. 
 NOTE never submit passwords/public private keys or any other sensitive data to git. It is almost impossible to remove. Check and add files individually not as git add *. THINK BEFORE COMMIT.
-1.5 
+1.4.1 Add in all the other bits that make up a project. Label "empty_part_one"
+
+1.5 Lets create a simple project that runs and can be debugged.
+1.6 create the tests we need to pass.
+    Note
+    1) Normally would create scalatest or some other framework with assertions but we will examine by eye.
+    2) Going to use a reactive methodology rather than procedural (which is easy) and looks similar to functional code base.
+    3) Had a test framwork that worked using virtual time, which is by far the best way of doing the testing, do not have this code at the moment with out
+        reserrecting a dead computer that had water damage.
+
+1.7) We have documented the tests. Write the code for part 1, visually examine the output. Label "end_part_one"
+1.8)
