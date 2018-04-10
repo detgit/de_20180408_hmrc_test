@@ -4,4 +4,8 @@
 1.1 Create repo in github and pull down into project. Label “start” 
 1.2 Create a working branch. Never work in master.
 1.3 Create notes add git. Label “notes”.
-1.4 Create a basic intellij. Label “project start”
+1.4 Create a basic empty intellij project. Label “project start”
+Ensure that the .gitignore is set up otherwise we will submit things that should not be submitted,
+and spend the rest of the project trying delete. 
+NOTE never submit passwords/public private keys or any other sensitive data to git. It is almost impossible to remove. Check and add files individually not as git add *. THINK BEFORE COMMIT.
+1.5 
