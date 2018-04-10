@@ -17,6 +17,7 @@ object HMRC_Start {
 
 
     // Simple No items.
+    // no items, cost = 0.0
 
     {
 
@@ -64,6 +65,8 @@ object HMRC_Start {
 
 
       // Test 2. Single Orange
+      // (Orange, 25, 25.0)
+      // total = 25.0
       {
         println("Simple Items:Test 2")
 
@@ -102,6 +105,8 @@ object HMRC_Start {
       }
 
       // Test 3. Single Apple
+      // (Apple, 60.0, 60.0)
+      // total = 60.0
       {
         println("Simple Items:Test 3")
 
@@ -140,6 +145,12 @@ object HMRC_Start {
 
 
       // Test 4. Some random stuff, Apple, Orange, Orange, Apple, Apple.
+      // (Apple, 60.0, 60.0)
+      // (Orange, 25, 85.0)
+      // (Orange, 25, 110.0)
+      // (Apple, 60.0, 170.0)
+      // (Apple, 60.0, 230.0)
+      // total = 230.0
       {
         println("Simple Items:Test 4")
 
